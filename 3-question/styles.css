@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  
+  
+/* my code   */
+
+.header{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.steps{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.step{
+    width: 2%;
+    border: solid 1.5px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.step-1{
+    background-color: blue;
+}
+
+.line{
+    width:20%;
+    height: 5px;
+    border: solid 0.5px;
+}
+
+.stepName{
+    display: flex;
+    width: 100%;
+    padding-left: 138px;
+    column-gap: 106px;
+}
+
+.payment{
+    padding-left: 37px;
+}
+
+.delivered{
+    padding-left: 55px;
+}
+
+.information{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    column-gap: 40px;
+}
+
+.previous-btn{
+    display: flex;
+    border-radius: 5px;
+    border: solid 2px;
+    width : 80px;
+    justify-content: center;
+}
+
+.nexr-btn{
+    display: flex;
+    border-radius: 5px;
+    border: solid 2px;
+    width : 80px;
+    justify-content: center;
+}
