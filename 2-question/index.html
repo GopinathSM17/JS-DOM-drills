@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="header-container">
+      <div class="left-side-header">
+        <button class="back-button"><</button>
+      </div>
+      <h1>Transfer List</h1>
+      <div class="right-side-header">
+        <button class="option-button">
+          <div class="line">_</div>
+          <div class="line">_</div>
+          <div class="line">_</div>
+        </button>
+      </div>
+    </div>
+    <div class="main-container">
+      <div class="text-input">
+        <input
+          type="text"
+          id="text"
+          class="text"
+          name="text"
+          placeholder="Enter the name"
+        />
+      </div>
+      <div class="transfer-box">
+        <div class="left-box" id="left-box">
+          <label id="java" class="label">
+            <input type="checkbox" />
+            JAVA
+          </label>
+          <label id="ruby" class="label">
+            <input type="checkbox" />
+            RUBY
+          </label>
+          <label id="javascript" class="label">
+            <input type="checkbox" />
+            JAVASCRIPT
+          </label>
+        </div>
+        <div class="button-box">
+          <button class="btn left-btn"><</button>
+          <button class="btn left-all-btn"><<</button>
+          <button class="btn right-btn">></button>
+          <button class="btn right-all-btn">>></button>
+        </div>
+        <div class="right-box" id="right-box">
+          <label id="gopinath" class="label">
+            <input type="checkbox" />
+            GOPINATH
+          </label>
+          <label id="nadim" class="label">
+            <input type="checkbox" />
+            NADIM
+          </label>
+          <label id="sameer" class="label">
+            <input type="checkbox" />
+            SAMEER
+          </label>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>

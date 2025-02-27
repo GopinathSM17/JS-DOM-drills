@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+
+
+/* my code */
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    padding-bottom: 40px;
+}
+
+.left-side-header{
+    display: flex;
+
+}
+
+h1{
+    display: flex;
+    align-items: center;
+}
+
+.right-side-header{
+    display: flex;
+}
+
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.text-input{
+    display: flex;
+}
+
+.text{
+    width : 100%;
+    border-radius: 5%;
+    border-color: black;
+    border: solid 2px;
+    text-align: center;
+}
+
+.transfer-box{
+    display: flex;
+    width: 90%;
+    border: solid 2px;
+    flex-direction: row;
+    /* justify-content: space-between; */
+}
+
+.left-box{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-top: 10px;
+    row-gap: 15px;
+    width: 40%;
+    min-width: 40%;
+}
+
+.button-box{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    border: solid 2px;
+    border-top: 0;
+    border-bottom: 0;
+    padding: 30px;
+    width: 20%;
+}
+
+.right-box{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-top: 10px;
+    row-gap: 15px;
+    width: 40%;
+}
+
