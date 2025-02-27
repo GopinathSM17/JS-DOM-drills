@@ -10,6 +10,7 @@ nextBtn.addEventListener('click', (e)=>{
       if(stepMarker === 1){
         const step1=document.querySelector('.step-1');
         step1.style.backgroundColor = "green";
+        step1.textContent= "✔";
 
         const line1 = document.querySelector('.line-1');
         line1.style.backgroundColor = "green";
@@ -26,6 +27,7 @@ nextBtn.addEventListener('click', (e)=>{
       else if(stepMarker === 2){
         const step2=document.querySelector('.step-2');
         step2.style.backgroundColor = "green";
+        step2.textContent= "✔";
 
         const line2 = document.querySelector('.line-2');
         line2.style.backgroundColor = "green";
@@ -42,6 +44,7 @@ nextBtn.addEventListener('click', (e)=>{
       else if(stepMarker === 3){
         const step3=document.querySelector('.step-3');
         step3.style.backgroundColor = "green";
+        step3.textContent= "✔";
 
         const line3 = document.querySelector('.line-3');
         line3.style.backgroundColor = "green";
@@ -60,6 +63,7 @@ nextBtn.addEventListener('click', (e)=>{
       else {
         const step4 = document.querySelector('.step-4');
         step4.style.backgroundColor = "green";
+        step4.textContent= "✔";
 
         const information = document.querySelector('.information');
         information.textContent="Order delivered successfully!!!";
@@ -75,6 +79,7 @@ perviousBtn.addEventListener('click', (e)=>{
     if(stepMarker == 2){
         const step1=document.querySelector('.step-1');
         step1.style.backgroundColor = "blue";
+        step1.textContent="1";
 
         const line1 = document.querySelector('.line-1');
         line1.style.backgroundColor = "white";
@@ -90,6 +95,7 @@ perviousBtn.addEventListener('click', (e)=>{
     else if(stepMarker == 3){
         const step2=document.querySelector('.step-2');
         step2.style.backgroundColor = "blue";
+        step2.textContent="2";
 
         const line2 = document.querySelector('.line-2');
         line2.style.backgroundColor = "white";
@@ -106,12 +112,15 @@ perviousBtn.addEventListener('click', (e)=>{
     else if(stepMarker == 4){
         const step3=document.querySelector('.step-3');
         step3.style.backgroundColor = "blue";
+        step3.textContent="3";
+        
 
         const line3 = document.querySelector('.line-3');
         line3.style.backgroundColor = "white";
 
         const step4 = document.querySelector('.step-4');
         step4.style.backgroundColor = "white";
+        step4.textContent="4";
 
         const information = document.querySelector('.information');
         information.textContent="Complete payment to complete the order";
