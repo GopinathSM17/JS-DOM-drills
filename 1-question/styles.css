@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* my code */
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+    row-gap: 5px;
+    padding-top: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    border: solid 2px;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    border: solid 2px;
+}
+
+.output{
+    display: flex;
+    column-gap: 10px;
+    border: solid 1px;
+    flex-direction: column;
+
+}
